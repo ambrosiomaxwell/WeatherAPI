@@ -1,0 +1,10 @@
+.list-group{
+    list-style-type: none;
+}
+
+.daily-box{
+    margin: 10px;
+    padding: 10px, 50px,20px, 105px;
+    height: 250px;
+    color: white;
+}
