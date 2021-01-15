@@ -65,7 +65,7 @@ function setUp(city){
 
     $('#today').empty()
     $('#forecast').empty()
-    cityURL = 'http://api.openweathermap.org/data/2.5/weather?q=' + city +'&units=imperial&APPID=682c772d04578194ce0e0bb350754206';
+    cityURL = 'https://api.openweathermap.org/data/2.5/weather?q=' + city +'&units=imperial&APPID=682c772d04578194ce0e0bb350754206';
 
 
     $.ajax({
